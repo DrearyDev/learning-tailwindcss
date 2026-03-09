@@ -83,5 +83,91 @@
                 </code>
             </pre>
         </div>
+
+        <h1 class="text-2xl text-black bg-sky-300 font-bold p-4 m-4">
+            Grid:
+        </h1>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 m-4">
+            <div class="bg-blue-200 text-center border-2 border-blue-700 p-4">1</div>
+            <div class="bg-blue-200 text-center border-2 border-blue-700 p-4">2</div>
+            <div class="bg-blue-200 text-center border-2 border-blue-700 p-4">3</div>
+            <div class="bg-blue-200 text-center border-2 border-blue-700 p-4">4</div>
+            <div class="bg-blue-200 text-center border-2 border-blue-700 p-4">5</div>
+            <div class="bg-blue-200 text-center border-2 border-blue-700 p-4">6</div>
+        </div>
+
+        <div class="bg-slate-400 overflow-x-auto p-4 m-4">
+            <pre class="text-sm">
+                <code>
+&lt;div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 m-4"&gt;
+    &lt;div class="bg-blue-200 text-center border-2 border-blue-700 p-4"&gt;1&lt;/div&gt;
+    &lt;div class="bg-blue-200 text-center border-2 border-blue-700 p-4"&gt;2&lt;/div&gt;
+    &lt;div class="bg-blue-200 text-center border-2 border-blue-700 p-4"&gt;3&lt;/div&gt;
+    &lt;div class="bg-blue-200 text-center border-2 border-blue-700 p-4"&gt;4&lt;/div&gt;
+    &lt;div class="bg-blue-200 text-center border-2 border-blue-700 p-4"&gt;5&lt;/div&gt;
+    &lt;div class="bg-blue-200 text-center border-2 border-blue-700 p-4"&gt;6&lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="grid [grid-template-areas:'header_header''menu_content''footer_footer'] grid-cols-[1fr_3fr] bg-sky-500 border-2 border-sky-900 gap-2 p-2 m-4">
+            <div class="[grid-area:header] bg-sky-50 p-4">
+                <h2 class="text-center text-xl text-black font-bold">My Header</h2>
+            </div>
+            <div class="[grid-area:menu] bg-sky-50 p-4">
+                <a class="underline text-blue-600" href="#">Link 1</a>
+                <br>
+                <a class="underline text-blue-600" href="#">Link 2</a>
+                <br>
+                <a class="underline text-blue-600" href="#">Link 3</a>
+                <br>
+            </div>
+            <div class="[grid-area:content] bg-sky-50 p-4">
+                <h3 class="text-lg text-black font-bold">Lorem Ipsum</h3>
+                <p>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit.
+                    Ridiculus sit nisl laoreet facilisis aliquet. Potenti
+                    dignissim litora eget montes rhoncus sapien neque urna.
+                    Cursus libero sapien integer magnis ligula lobortis quam ut.
+                </p>
+            </div>
+            <div class="[grid-area:footer] bg-sky-50 p-4">
+                <h4 class="text-center text-base text-black font-bold">Footer</h4>
+            </div>
+        </div>
+
+        <div class="bg-slate-400 overflow-x-auto p-4 m-4">
+            <pre class="text-sm">
+                <code>
+&lt;div class="grid [grid-template-areas:'header_header''menu_content''footer_footer'] grid-cols-[1fr_3fr] bg-sky-500 border-2 border-sky-900 gap-2 p-2 m-4"&gt;
+    &lt;div class="[grid-area:header] bg-sky-50 p-4"&gt;
+        &lt;h2 class="text-center text-xl text-black font-bold"&gt;My Header&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class="[grid-area:menu] bg-sky-50 p-4"&gt;
+        &lt;a class="underline text-blue-600" href="#"&gt;Link 1&lt;/a&gt;
+        &lt;br&gt;
+        &lt;a class="underline text-blue-600" href="#"&gt;Link 2&lt;/a&gt;
+        &lt;br&gt;
+        &lt;a class="underline text-blue-600" href="#"&gt;Link 3&lt;/a&gt;
+        &lt;br&gt;
+    &lt;/div&gt;
+    &lt;div class="[grid-area:content] bg-sky-50 p-4"&gt;
+        &lt;h3 class="text-lg text-black font-bold"&gt;Lorem Ipsum&lt;/h3&gt;
+        &lt;p&gt;
+            Lorem ipsum odor amet, consectetuer adipiscing elit.
+            Ridiculus sit nisl laoreet facilisis aliquet. Potenti
+            dignissim litora eget montes rhoncus sapien neque urna.
+            Cursus libero sapien integer magnis ligula lobortis quam ut.
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="[grid-area:footer] bg-sky-50 p-4"&gt;
+        &lt;h4 class="text-center text-base text-black font-bold"&gt;Footer&lt;/h4&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+        </div>
     </body>
 </html>
