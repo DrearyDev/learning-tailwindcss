@@ -1,0 +1,27 @@
+{
+    "name": "learning-tailwindcss",
+    "version": "1.0.0",
+    "description": "Practice project to learn tailwind css",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+        "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DrearyDev/learning-tailwindcss.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/DrearyDev/learning-tailwindcss/issues"
+    },
+    "homepage": "https://github.com/DrearyDev/learning-tailwindcss#readme",
+    "dependencies": {
+        "@tailwindcss/cli": "^4.2.1",
+        "tailwindcss": "^4.2.1"
+    }
+}
