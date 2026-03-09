@@ -8,7 +8,80 @@
         <link rel="icon" href="data:,">
         <link rel="stylesheet" href="./dist/output.css">
     </head>
-    <body>
+    <body class="bg-sky-200">
 
+        <h1 class="text-3xl text-black text-center bg-sky-300 font-bold p-4 m-4">
+            Learning Tailwind CSS (4.2.1)
+        </h1>
+
+        <h1 class="text-2xl text-black bg-sky-300 font-bold p-4 m-4">
+            Flexbox:
+        </h1>
+
+        <div class="flex gap-4 m-4">
+            <div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4">1</div>
+            <div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4">2</div>
+            <div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4">3</div>
+            <div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4">4</div>
+            <div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4">5</div>
+            <div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4">6</div>
+        </div>
+
+        <div class="bg-slate-400 overflow-x-auto p-4 m-4">
+            <pre class="text-sm">
+                <code>
+&ltdiv class="flex gap-4 m-4"&gt
+    &lt;div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4"&gt;1&lt;/div&gt;
+    &lt;div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4"&gt;2&lt;/div&gt;
+    &lt;div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4"&gt;3&lt;/div&gt;
+    &lt;div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4"&gt;4&lt;/div&gt;
+    &lt;div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4"&gt;5&lt;/div&gt;
+    &lt;div class="bg-red-200 border-2 border-red-700 flex-auto text-center p-4"&gt;6&lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="flex gap-4 m-4">
+            <div class="w-14 flex-none bg-purple-200 border-2 border-purple-700 text-center p-4">1</div>
+            <div class="w-64 flex-1 bg-purple-200 border-2 border-purple-700 text-center p-4">2</div>
+            <div class="w-32 flex-1 bg-purple-200 border-2 border-purple-700 text-center p-4">3</div>
+        </div>
+
+        <div class="bg-slate-400 overflow-x-auto p-4 m-4">
+            <pre class="text-sm">
+                <code>
+&lt;div class="flex gap-4 m-4"&gt;
+    &lt;div class="w-14 flex-none bg-purple-200 border-2 border-purple-700 text-center p-4"&gt;1&lt;/div&gt;
+    &lt;div class="w-64 flex-1 bg-purple-200 border-2 border-purple-700 text-center p-4"&gt;2&lt;/div&gt;
+    &lt;div class="w-32 flex-1 bg-purple-200 border-2 border-purple-700 text-center p-4"&gt;3&lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+        </div>
+
+        <div class="flex-wrap flex gap-4 m-4">
+            <div class="flex-1 bg-lime-200 border-2 border-lime-700 text-center p-4">1</div>
+            <div class="flex-2 bg-lime-200 border-2 border-lime-700 text-center p-4">2</div>
+            <div class="flex-3 bg-lime-200 border-2 border-lime-700 text-center p-4">3</div>
+            <div class="flex-4 bg-lime-200 border-2 border-lime-700 text-center p-4">4</div>
+            <div class="flex-5 bg-lime-200 border-2 border-lime-700 text-center p-4">5</div>
+            <div class="flex-6 bg-lime-200 border-2 border-lime-700 text-center p-4">6</div>
+        </div>
+
+        <div class="bg-slate-400 overflow-x-auto p-4 m-4">
+            <pre class="text-sm">
+                <code>
+&lt;div class="flex-wrap flex gap-4 m-4"&gt;
+    &lt;div class="flex-1 bg-lime-200 border-2 border-lime-700 text-center p-4"&gt;1&lt;/div&gt;
+    &lt;div class="flex-2 bg-lime-200 border-2 border-lime-700 text-center p-4"&gt;2&lt;/div&gt;
+    &lt;div class="flex-3 bg-lime-200 border-2 border-lime-700 text-center p-4"&gt;3&lt;/div&gt;
+    &lt;div class="flex-4 bg-lime-200 border-2 border-lime-700 text-center p-4"&gt;4&lt;/div&gt;
+    &lt;div class="flex-5 bg-lime-200 border-2 border-lime-700 text-center p-4"&gt;5&lt;/div&gt;
+    &lt;div class="flex-6 bg-lime-200 border-2 border-lime-700 text-center p-4"&gt;6&lt;/div&gt;
+&lt;/div&gt;
+                </code>
+            </pre>
+        </div>
     </body>
 </html>
